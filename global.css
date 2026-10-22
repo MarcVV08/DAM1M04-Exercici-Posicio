@@ -101,3 +101,29 @@ a { color: var(--azul); text-decoration: none; }
 .carta{ background: var(--panel); border: 1px solid var(--borde); border-radius: 12px; padding: 25px; }
 .carta .icono { font-size: 36px; }
 
+.beneficis{
+    background-image: url(imatges/beneficis.svg);
+    background-size: cover;
+    margin-top: 50px;
+}
+
+.beneficis .autocenter{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px 15px;
+    font-weight: bold;
+}
+
+footer{
+    margin-top: 60px;
+    padding: 25px 0;
+    background: var(--panel);
+    border-top: 1px solid var(--borde);
+    color: var(--gris);
+    font-size: 14px;
+}
+
+footer .autocenter{ display: flex; flex-wrap: wrap; justify-content: space-between; gap: 10px; }
+
