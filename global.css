@@ -17,7 +17,7 @@
 
 body{
     margin: 0;
-    padding-top: var(--navH);
+    /*padding-top: var(--navH);*/
     background: var(--fondo);
     color: var(--texto);
     font-family: Arial, sans-serif;
@@ -40,7 +40,7 @@ a { color: var(--azul); text-decoration: none; }
 }
 
 .menu{
-    position: fixed;
+    position: sticky;
     top: 0%;
     width: 100%;
     height: var(--navH);
