@@ -56,13 +56,14 @@ a { color: var(--azul); text-decoration: none; }
     align-items: center;
 }
 
-.logo img{
-    height: 40px;
+.menu img{
+    height: 50px;
     display: block;
 }
 
+.logo { font-weight: bold; color: var(---texto) }
 .menu ul{ display: flex; gap: 25px; list-style: none; margin: 0; padding: 0; }
-.menu ul a { color: var (--gris); }
+.menu ul a { color: var(--gris); }
 .menu ul a:hover, .menu ul a.activo { color: var(--texto); border-bottom: 2px solid var(--azul); }
 
 .button{
@@ -75,4 +76,16 @@ a { color: var(--azul); text-decoration: none; }
     cursor: pointer;
 }
 
-.button.hover { background: var(--azul); }
+.button:hover { background: var(--azul); }
+
+.hero{
+    background-image: url(imatges/hero.svg);
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0 70px;
+}
+
+.hero p{ font-size: 18px; max-width: 600px; margin-bottom: 30px; }
+
+
+
