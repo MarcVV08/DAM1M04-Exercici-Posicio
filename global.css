@@ -39,3 +39,40 @@ a { color: var(--azul); text-decoration: none; }
     padding: 0 20px;
 }
 
+.menu{
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    height: var(--navH);
+    background: rgba(11, 10, 23, 0.9);
+    border-bottom: 1px solid var(--borde);
+    z-index: 10;
+}
+
+.menu .autocenter{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img{
+    height: 40px;
+    display: block;
+}
+
+.menu ul{ display: flex; gap: 25px; list-style: none; margin: 0; padding: 0; }
+.menu ul a { color: var (--gris); }
+.menu ul a:hover, .menu ul a.activo { color: var(--texto); border-bottom: 2px solid var(--azul); }
+
+.button{
+    background: var(--morado);
+    color: white;
+    border: none;
+    padding: 14px 28px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.button.hover { background: var(--azul); }
