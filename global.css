@@ -117,7 +117,6 @@ a { color: var(--azul); text-decoration: none; }
 }
 
 /* Peus de pàgina */
-
 footer{
     margin-top: 60px;
     padding: 25px 0;
@@ -135,6 +134,16 @@ footer .autocenter{ display: flex; flex-wrap: wrap; justify-content: space-betwe
 .filtres { display: flex; flex-wrap: wrap; gap: 10px; margin: 15px 0 30px; }
 .filtres span { border: 1px solid var(--borde); border-radius: 20px; padding: 6px 18px; color: var(--gris); }
 
+.llista{ display: flex; flex-wrap: wrap; gap: 20px }
+.producte{
+    flex: 1 1 260px;
+    background: var(--panel);
+    border: 1px solid var(--borde);
+    border-radius: 12px;
+    overflow: hidden;
+}
 
-
+.producte img { width: 100%; display: block; }
+.producte .info { padding: 15px 20px 20px; }
+.preu { color: var(--azul); font-size: 20px; font-weight: bold;}
 
