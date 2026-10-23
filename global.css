@@ -147,3 +147,15 @@ footer .autocenter{ display: flex; flex-wrap: wrap; justify-content: space-betwe
 .producte .info { padding: 15px 20px 20px; }
 .preu { color: var(--azul); font-size: 20px; font-weight: bold;}
 
+/* CONTACTE */
+
+
+/* MÒBIL */
+@media (max-width: 768px) {
+    h1 ´{ font-size: 34px; }
+    .menu ul { font-size: 34px;}
+    .logo { gap: 15px; font-size: 14px; }
+    .logo img { height: 30px; }
+    .hero { padding: 60px 0 40px; }
+    .cartes { grid-template-columns: 1fr; }
+}
