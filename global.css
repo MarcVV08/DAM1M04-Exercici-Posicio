@@ -148,6 +148,9 @@ footer .autocenter{ display: flex; flex-wrap: wrap; justify-content: space-betwe
 .preu { color: var(--azul); font-size: 20px; font-weight: bold;}
 
 /* CONTACTE */
+.contacte { display: grid;grid-template-columns: 1fr 1fr; gap: 30px; align-items: start; }
+.caixa { background: var(--panel); border: 1px solid var(--borde); border-radius: 12px; padding: 25px;}
+
 
 
 /* MÒBIL */
