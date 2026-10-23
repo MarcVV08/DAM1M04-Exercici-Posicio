@@ -151,7 +151,26 @@ footer .autocenter{ display: flex; flex-wrap: wrap; justify-content: space-betwe
 .contacte { display: grid;grid-template-columns: 1fr 1fr; gap: 30px; align-items: start; }
 .caixa { background: var(--panel); border: 1px solid var(--borde); border-radius: 12px; padding: 25px;}
 
+label { display: block; margin-bottom: 5px; }
+input, textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    background: var(--fondo);
+    color: var(--texto);
+    border: 1px solid var(--borde);
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+}
 
+.mapa{
+    height: 200px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-image: url(imatges/carrer.png);
+    background-size: cover;
+    background-position: center;
+}
 
 /* MÒBIL */
 @media (max-width: 768px) {
